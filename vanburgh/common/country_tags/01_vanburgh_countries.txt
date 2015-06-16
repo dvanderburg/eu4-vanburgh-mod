@@ -1,0 +1,4 @@
+# Europe Countries
+GIO = "countries/Giorgiovia.txt"
+RIS = "countries/Riesling.txt"
+VAN = "countries/Vanburgh.txt"

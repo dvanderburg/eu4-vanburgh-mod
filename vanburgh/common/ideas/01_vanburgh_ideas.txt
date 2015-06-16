@@ -1,0 +1,121 @@
+### New nations added by Vanburgh mod
+
+GIO_IDEAS = {
+	start = {
+		mil_tech_cost_modifier  = -0.1
+		diplomatic_upkeep = 2
+	}
+	
+	bonus = {
+		land_morale = 0.10
+		discipline = 0.05
+	}
+	trigger = {
+		tag = GIO
+	}
+	free = yes		#will be added at load.
+	
+	bonds_of_friendship = {
+		diplomatic_reputation = 2
+	}
+	greek_scholars = {
+	 	tolerance_heretic = 3
+	}
+	greek_adonis = {
+		infantry_power = 0.1
+	}
+	rowing_exercises = {
+		galley_power = 0.25
+	}
+	greek_reflexes = {		
+		leader_naval_manuever = 3
+	}
+	sampling_global_wares = {
+		global_trade_power = 0.2
+		trade_steering = 0.25
+	}
+	embrace_multiculturalism = {
+		accepted_culture_threshold = -0.25
+	}
+}
+
+RIS_ideas = {
+	start = {
+	   	global_tax_modifier = 0.1
+		diplomatic_reputation = 2
+	}
+	
+	bonus = {
+		imperial_authority = 0.10
+	}
+	
+	trigger = {
+		tag = RIS
+	}
+	free = yes		#will be added at load.
+	
+	wine_prosperity = {
+		production_efficiency = 0.15
+	}
+	drunken_soldiers = {
+		land_morale = 0.15
+		heir_chance = 0.5
+	}
+	these_are_ponies = {
+		cavalry_power = 0.1
+		cavalry_cost = -0.15
+	}
+	geyer_university = {
+	 	tolerance_heretic = 3
+	}
+	evangelist_roots = {
+		church_power_modifier = 0.10
+	}
+	friendly_diplomats = {
+		diplomatic_upkeep = 2
+		advisor_pool = 1
+	}
+	german_conscription = {		
+		discipline = 0.05
+		global_tax_modifier = 0.10
+	}
+}
+
+VAN_ideas = {
+	start = {
+		naval_forcelimit_modifier = 0.50
+		technology_cost = -0.05
+	}
+	
+	bonus = {
+		accepted_culture_threshold = -0.2
+	}
+
+	trigger = {
+		tag = VAN
+	}
+	free = yes		#will be added at load.
+	
+	prudant_dutch = {
+		inflation_reduction = 0.10
+		global_tax_modifier = 0.10
+	}
+	lowland_pride = {
+		land_morale = 0.15
+	}
+	vanburgh_reputation = {
+		diplomatic_reputation = 2
+	}
+	polders = {
+		development_cost = -0.5
+	}
+	dutch_production = {
+		production_efficiency = 0.1
+	}
+	strong_leaders = {
+		leader_land_fire = 2
+	}
+	future_in_trade = {
+		merchants = 1
+	}
+}

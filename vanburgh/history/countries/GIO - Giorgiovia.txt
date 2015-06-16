@@ -1,0 +1,28 @@
+government = feudal_monarchy
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 146	# Athens
+
+1440.8.29 = {
+	monarch = {
+		name = "Giorgio"
+		dynasty = "Sintichakis"
+		birth_date = 1415.4.19
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+}
+
+1441.7.20 = {
+	heir = {
+		name = "Gio"
+		dynasty = "Sintichakis"
+		birth_date = 1437.1.6
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
