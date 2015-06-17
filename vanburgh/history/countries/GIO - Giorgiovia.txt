@@ -2,6 +2,7 @@ government = feudal_monarchy
 technology_group = eastern
 primary_culture = greek
 religion = orthodox
+historical_friend = ELA
 capital = 146	# Athens
 
 1440.8.29 = {

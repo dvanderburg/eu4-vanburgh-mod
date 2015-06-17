@@ -1,5 +1,47 @@
 ### New nations added by Vanburgh mod
 
+ELA_IDEAS = {
+	start = {
+		spy_offence = 0.50
+		infantry_power = 0.2
+	}
+	
+	bonus = {
+		may_infiltrate_administration = yes
+		may_sow_discontent = yes
+		may_sabotage_reputation = yes
+	}
+	trigger = {
+		tag = ELA
+	}
+	free = yes		#will be added at load.
+	
+	careful_budget = {		
+		global_tax_modifier = 0.10
+		inflation_reduction = 0.1
+	}
+	ships_penny = {
+		global_ship_cost = -0.15
+	}
+	quality_education = {
+		army_tradition = 1
+	}
+	privateers = {
+		embargo_efficiency = 0.25
+		privateer_efficiency = 0.33
+	}
+	trade_manipulation = {
+		trade_steering = 0.25
+		caravan_power = 0.20
+	}
+	war_cabinet = {
+	 	war_exhaustion_cost = -0.33
+	}
+	experienced_diplomats = {
+		diplomatic_reputation = 2
+	}
+}
+
 GIO_IDEAS = {
 	start = {
 		mil_tech_cost_modifier  = -0.1

@@ -1,0 +1,41 @@
+government = feudal_monarchy
+technology_group = western
+religion = catholic
+primary_culture = lombard
+historical_friend = GIO
+capital = 121	# Napoli
+
+1420.10.23 = {
+	monarch = {
+		name = "David"
+		dynasty = "D'Auria"
+		birth_date = 1389.9.4
+		death_date = 1440.8.28
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}
+
+1440.8.29 = {
+	monarch = {
+		name = "Franco"
+		dynasty = "D'Auria"
+		birth_date = 1414.5.26
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1441.7.20 = {
+	heir = {
+		name = "Frankee"
+		dynasty = "D'Auria"
+		birth_date = 1441.2.29
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

@@ -1,4 +1,5 @@
 # Europe Countries
+ELA = "countries/ElAmiiboo.txt"
 GIO = "countries/Giorgiovia.txt"
 RIS = "countries/Riesling.txt"
 VAN = "countries/Vanburgh.txt"
