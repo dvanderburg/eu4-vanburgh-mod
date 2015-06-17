@@ -23,14 +23,15 @@ ELA_IDEAS = {
 	ships_penny = {
 		global_ship_cost = -0.15
 	}
-	quality_education = {
+	muay_italian = {
 		army_tradition = 1
+		leader_land_shock = 1
 	}
 	privateers = {
 		embargo_efficiency = 0.25
 		privateer_efficiency = 0.33
 	}
-	trade_manipulation = {
+	amiiboo_trade = {
 		trade_steering = 0.25
 		caravan_power = 0.20
 	}
@@ -154,7 +155,7 @@ VAN_ideas = {
 	dutch_production = {
 		production_efficiency = 0.1
 	}
-	strong_leaders = {
+	reset_flora = {
 		leader_land_fire = 2
 	}
 	future_in_trade = {
