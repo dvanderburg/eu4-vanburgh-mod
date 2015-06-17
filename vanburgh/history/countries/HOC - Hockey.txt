@@ -1,0 +1,31 @@
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.25
+primary_culture = tuscan
+religion = catholic
+technology_group = western
+historical_friend = CLS
+capital = 116 # Firenze
+
+1440.8.29 = {
+	monarch = {
+		name = "Alfie"
+		dynasty = "Eitherore"
+		birth_date = 1428.11.20
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+}
+
+1443.1.5 = {
+	heir = {
+		name = "Alfred"
+		dynasty = "Eitherore"
+		birth_date = 1443.1.5
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

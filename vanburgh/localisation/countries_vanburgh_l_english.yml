@@ -1,8 +1,12 @@
 l_english:
+ CLS: "Calassy"
+ CLS_ADJ: "Classy"
  ELA: "El Amiiboo"
  ELA_ADJ: "Amiiboo"
  GIO: "Giorgiovia"
  GIO_ADJ: "Giorgiovian"
+ HOC: "H'ockey"
+ HOC_ADJ: "H'ockerean"
  RIS: "Riesling"
  RIS_ADJ: "Riesling"
  VAN: "Vanburgh" 

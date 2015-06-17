@@ -1,5 +1,7 @@
 # Europe Countries
+CLS = "countries/Calassy.txt"
 ELA = "countries/ElAmiiboo.txt"
 GIO = "countries/Giorgiovia.txt"
+HOC = "countries/Hockey.txt"
 RIS = "countries/Riesling.txt"
 VAN = "countries/Vanburgh.txt"
