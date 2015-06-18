@@ -1,5 +1,47 @@
 ### New nations added by Vanburgh mod
 
+CLS_IDEAS = {
+	start = {
+		technology_cost = -0.1
+		leader_land_shock = 3
+	}
+	
+	bonus = {
+		diplomatic_reputation = 3
+		enemy_core_creation = 0.5
+	}
+	trigger = {
+		tag = CLS
+	}
+	free = yes		#will be added at load.
+	
+	finer_things = {
+		production_efficiency = 0.1
+		global_tax_modifier = 0.10
+ 	}
+ 	classy_rulers  = { 
+		prestige_decay = -0.05
+		diplomatic_reputation = 2
+	}
+ 	hired_help = {
+		mercenary_cost = -0.35
+	}
+	alien_infantry = {
+		infantry_power = 0.1
+	}
+	otherworldy_construction = {
+		development_cost = -0.2
+	}
+	tea_service = {
+		improve_relation_modifier = 0.5
+		diplomatic_upkeep = 2
+	}
+	ray_guns = {
+		leader_land_fire = 1
+		artillery_power = 0.25
+	}
+}
+
 ELA_IDEAS = {
 	start = {
 		spy_offence = 0.50
@@ -43,6 +85,49 @@ ELA_IDEAS = {
 	}
 }
 
+HOC_IDEAS {
+	start = {
+		technology_cost = -0.1
+		leader_land_shock = 3
+	}
+	
+	bonus = {
+		diplomatic_reputation = 3
+		enemy_core_creation = 0.5
+	}
+	trigger = {
+		tag = HOC
+	}
+	free = yes		#will be added at load.
+	
+	scout_reports = {
+ 		global_trade_power = 0.15
+ 		global_trade_income_modifier = 0.15
+  	}
+	draft_lottery = {
+		global_manpower_modifier = 0.3
+	}
+	trade_deadline = {
+		trade_steering = 0.25
+		caravan_power = 0.20
+	}
+	alien_infantry = {
+		infantry_power = 0.1
+	}
+	otherworldy_construction = {
+		development_cost = -0.2
+	}
+	chip_ships = {
+		navy_tradition = 3
+		global_ship_cost = -0.2
+	}
+	ray_guns = {
+		leader_land_fire = 1
+		artillery_power = 0.25
+	}
+	
+}
+
 GIO_IDEAS = {
 	start = {
 		mil_tech_cost_modifier  = -0.1
@@ -80,6 +165,91 @@ GIO_IDEAS = {
 	embrace_multiculturalism = {
 		accepted_culture_threshold = -0.25
 	}
+}
+
+MGL_IDEAS {
+	start = {
+		technology_cost = -0.1
+		leader_land_shock = 3
+	}
+	
+	bonus = {
+		diplomatic_reputation = 3
+		enemy_core_creation = 0.5
+	}
+	trigger = {
+		tag = MGL
+	}
+	free = yes		#will be added at load.
+	
+	yeti_charge = {
+		leader_land_shock = 1
+		cavalry_power = 0.10
+		cavalry_cost = -0.15
+	}
+	one_of_the_guys = {
+		global_manpower_modifier = 0.25
+	}
+	strong_silent_type = {
+		army_tradition = 1
+		army_tradition_decay = -0.01
+		navy_tradition_decay = -0.01
+	}
+	alien_infantry = {
+		infantry_power = 0.1
+	}
+	otherworldy_construction = {
+		development_cost = -0.2
+	}
+	sick_hatrick = {
+		leader_land_manuever = 1
+		province_warscore_cost = -0.2
+	}
+	ray_guns = {
+		leader_land_fire = 1
+		artillery_power = 0.25
+	}
+	
+}
+
+MOZ_IDEAS {
+	start = {
+		technology_cost = -0.1
+		leader_land_shock = 3
+	}
+	
+	bonus = {
+		diplomatic_reputation = 3
+		enemy_core_creation = 0.5
+	}
+	trigger = {
+		tag = MOZ
+	}
+	free = yes		#will be added at load.
+	
+	living_with_men = {
+		global_manpower_modifier = 0.50
+	}
+	im_mayor = {
+		land_maintenance_modifier = -0.10
+	}
+	pay_your_taxes = {		
+		global_tax_modifier = 0.2
+	}
+	alien_infantry = {
+		infantry_power = 0.1
+	}
+	otherworldy_construction = {
+		development_cost = -0.2
+	}
+	because_were_men = {
+		manpower_recovery_speed = 0.15
+	}
+	ray_guns = {
+		leader_land_fire = 1
+		artillery_power = 0.25
+	}
+	
 }
 
 RIS_ideas = {

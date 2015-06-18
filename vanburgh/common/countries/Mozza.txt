@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 215  134  233 } 
+color = { 20  207  18 } 
 
 historical_score = 75
 
@@ -34,6 +34,8 @@ historical_units = {
 }
 
 monarch_names = {
+	"Greg #0" = 160
+	"Gregory #0" = 80
 	"Ferdinando #0" = 20
 	"Alessandro #0" = 20
 	"Francesco #0" = 20
@@ -68,8 +70,6 @@ monarch_names = {
 	"Pasquale #0" = 0
 	"Sergio #0" = 0
 	
-	"Gina #0" = -80
-	"Tiffany #0" = -40
 	"Luisella #0" = -1
 	"Milena #0" = -1
 	"Paolina #0" = -1

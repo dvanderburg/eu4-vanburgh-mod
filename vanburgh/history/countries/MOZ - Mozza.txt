@@ -4,32 +4,32 @@ mercantilism = 0.25
 primary_culture = tuscan
 religion = catholic
 technology_group = western
+historical_friend = CLS
 historical_friend = HOC
-historical_friend = MOZ
 historical_friend = MAG
-capital = 116 # Firenze
+capital = 115 # Pisa
 
 1440.8.29 = {
 	monarch = {
-		name = "Gina"
+		name = "Greg"
 		dynasty = "Eitherore"
-		birth_date = 1427.11.20
-		adm = 3
-		dip = 6
-		mil = 5
+		birth_date = 1426.11.20
+		adm = 6
+		dip = 3
+		mil = 6
 	}
 }
 
 1441.7.20 = {
 	heir = {
-		name = "Tiffany"
-		monarch_name = "Tiffany"
+		name = "Gregory"
+		monarch_name = "Gregory"
 		dynasty = "Eitherore"
 		birth_date = 1441.7.20
-		death_date = 1491.7.9
+		death_date = 1491.7.20
 		claim = 95
 		adm = 4
-		dip = 5
+		dip = 3
 		mil = 5
 	}
 }

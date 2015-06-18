@@ -1,0 +1,41 @@
+# Greg's Alliances
+alliance = {
+	first = MOZ
+	second = CLS
+	start_date = 1373.1.1
+	end_date = 1820.1.1
+}
+alliance = {
+	first = MOZ
+	second = HOC
+	start_date = 1373.1.1
+	end_date = 1820.1.1
+}
+alliance = {
+	first = MOZ
+	second = MGL
+	start_date = 1373.1.1
+	end_date = 1820.1.1
+}
+
+# Gina's Alliances
+alliance = {
+	first = CLS
+	second = HOC
+	start_date = 1373.1.1
+	end_date = 1820.1.1
+}
+alliance = {
+	first = CLS
+	second = MGL
+	start_date = 1373.1.1
+	end_date = 1820.1.1
+}
+
+# Alfie's Alliances
+alliance = {
+	first = HOC
+	second = MGL
+	start_date = 1373.1.1
+	end_date = 1820.1.1
+}
