@@ -252,6 +252,61 @@ MOZ_IDEAS {
 	
 }
 
+MRH_ideas {
+	start = {
+		siege_ability = 0.20
+		core_creation = -0.25
+		global_missionary_strength = 0.05
+	}
+	
+	bonus = {
+		diplomatic_annexation_cost = -0.3
+		diplomatic_reputation = 2
+	}
+	trigger = {
+		tag = MRH
+	}
+	free = yes		#will be added at load.
+	
+	first_wave = {
+		spy_offence = 0.03
+		infantry_power = 0.03
+		defensiveness = 0.03
+	}
+	second_wave = {
+		spy_offence = 0.05
+		infantry_power = 0.05
+		defensiveness = 0.05
+		cavalry_power = 0.05
+		leader_land_shock = 1
+	}
+	third_wave = {		
+		spy_offence = 0.1
+		infantry_power = 0.1
+		defensiveness = 0.1
+		cavalry_power = 0.1
+		leader_land_shock = 1
+		artillery_power = 0.1
+	}
+	caravan_guard = {
+		land_attrition = -0.1
+		reinforce_speed = 0.33
+	}
+	crimson_commander = {
+		land_morale = 0.10
+		recover_army_morale_speed = 0.05
+		discipline = 0.05
+	}
+	thuergy_wardens = {
+		leader_land_fire = 1
+		leader_land_shock = 1
+	}
+	gargauntua = {
+		global_manpower_modifier = 0.75
+	}
+	
+}
+
 RIS_ideas = {
 	start = {
 	   	global_tax_modifier = 0.1

@@ -1,10 +1,10 @@
 # 2153 - Tingzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = hakka
-religion = confucianism
+religion = shiite
 capital = "Tingzhou"
 trade_goods = chinaware
 hre = no

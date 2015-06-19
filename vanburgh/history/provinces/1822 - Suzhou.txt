@@ -1,10 +1,10 @@
 #1822 - Suzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = wu
-religion = confucianism
+religion = shiite
 capital = "Suzhou"
 trade_goods = silk
 hre = no

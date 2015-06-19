@@ -1,10 +1,10 @@
 #1824 - Wenzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = wu
-religion = confucianism
+religion = shiite
 capital = "Wenzhou"
 trade_goods = chinaware
 hre = no

@@ -1,10 +1,10 @@
 #1829 - Xiamen
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = chimin
-religion = confucianism
+religion = shiite
 capital = "Quanzhou"
 trade_goods = tea
 hre = no

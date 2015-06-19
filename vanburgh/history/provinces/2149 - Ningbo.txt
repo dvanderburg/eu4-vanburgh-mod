@@ -1,10 +1,10 @@
 # 2149 - Ningbo
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = wu
-religion = confucianism
+religion = shiite
 capital = "Ningbo"
 trade_goods = naval_supplies
 hre = no

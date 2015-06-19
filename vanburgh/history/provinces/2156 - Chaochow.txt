@@ -1,10 +1,10 @@
 # 2156 - Chaochow
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = chimin
-religion = confucianism
+religion = shiite
 capital = "Chaochow"
 trade_goods = chinaware
 hre = no

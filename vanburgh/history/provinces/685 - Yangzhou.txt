@@ -1,10 +1,10 @@
 #685 - Huai'an (can't change file name)
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = jianghuai
-religion = confucianism
+religion = shiite
 capital = "Yangzhou"
 trade_goods = salt
 hre = no

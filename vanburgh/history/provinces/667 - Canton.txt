@@ -1,10 +1,10 @@
 #667 - Guangzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = cantonese
-religion = confucianism
+religion = shiite
 capital = "Canton"
 trade_goods = spices
 hre = no
