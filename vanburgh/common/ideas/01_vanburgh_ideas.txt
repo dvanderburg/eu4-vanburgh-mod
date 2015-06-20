@@ -349,6 +349,48 @@ RIS_ideas = {
 	}
 }
 
+SOL_ideas = {
+	start = {
+		land_morale = 0.15
+		embargo_efficiency = 0.33
+	}
+	
+	bonus = {
+		free_leader_pool = 1
+	}
+	
+	trigger = {
+		tag = SOL
+	}
+	free = yes		#will be added at load.
+
+	solja_solja = {
+		discipline = 0.05
+	}
+	book_keepers = {
+		global_tax_modifier = 0.15
+	}
+	bootstrap_leadership = {
+		colonists = 1
+		diplomats = 1
+		diplomatic_upkeep = 1
+	}
+	trade_employment = {
+		global_trade_income_modifier = 0.15
+	}
+	multiple_ventures = {
+		global_tariffs = 0.15
+		global_prov_trade_power_modifier = 0.1
+	}
+	seafarers = {
+		heavy_ship_power = 0.15
+		army_tradition_decay = -0.05
+	}
+	successful_businesses = {
+		prestige = 1
+	}
+}
+
 VAN_ideas = {
 	start = {
 		naval_forcelimit_modifier = 0.50
