@@ -1,10 +1,10 @@
 # 2159 - Leichow
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = chimin
-religion = confucianism
+religion = shiite
 capital = "Leichow"
 trade_goods = sugar
 hre = no

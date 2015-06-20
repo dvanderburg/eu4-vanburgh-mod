@@ -1,10 +1,10 @@
 #690 - Shandong Bandao
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = shandong_culture
-religion = confucianism
+religion = shiite
 capital = "Qingzhou"
 trade_goods = iron
 hre = no

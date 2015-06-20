@@ -1,10 +1,10 @@
 # 2145 - Zhenjiang
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = MRH
+controller = MRH
+add_core = MRH
 culture = jianghuai
-religion = confucianism
+religion = shiite
 capital = "Zhenjiang"
 trade_goods = naval_supplies
 hre = no
