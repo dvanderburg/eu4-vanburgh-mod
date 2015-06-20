@@ -1,15 +1,13 @@
 #1176 - Roggeveld
 
-culture = bantu
-religion = animism
+owner = SOL
+controller = SOL
+culture = english
+religion = catholic
+add_core = SOL
 capital = "Roggeveld"
-trade_goods = unknown
+trade_goods = grain
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-native_size = 5
-native_ferocity = 1
-native_hostileness = 1
-
-1750.1.1 = { discovered_by = NED }

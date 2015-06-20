@@ -1,0 +1,33 @@
+government = despotic_monarchy
+mercantilism = 0.25
+technology_group = western
+primary_culture = english
+religion = catholic
+add_accepted_culture = bantu
+add_accepted_culture = dutch
+capital = 1177 # Cape
+
+1440.8.29 = {
+	monarch = {
+		name = "Bryan"
+		dynasty = "Freeman"
+		birth_date = 1408.10.21
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}
+
+1441.7.20 = {
+	heir = {
+		name = "David"
+		monarch_name = "David"
+		dynasty = "Vanderburg"
+		birth_date = 1440.08.20
+		death_date = 1495.12.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}

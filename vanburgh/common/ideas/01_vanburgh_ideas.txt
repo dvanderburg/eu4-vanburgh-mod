@@ -269,24 +269,24 @@ MRH_ideas {
 	free = yes		#will be added at load.
 	
 	first_wave = {
+		spy_offence = 0.02
+		infantry_power = 0.02
+		defensiveness = 0.02
+	}
+	second_wave = {
 		spy_offence = 0.03
 		infantry_power = 0.03
 		defensiveness = 0.03
-	}
-	second_wave = {
-		spy_offence = 0.05
-		infantry_power = 0.05
-		defensiveness = 0.05
-		cavalry_power = 0.05
+		cavalry_power = 0.03
 		leader_land_shock = 1
 	}
 	third_wave = {		
-		spy_offence = 0.1
-		infantry_power = 0.1
-		defensiveness = 0.1
-		cavalry_power = 0.1
+		spy_offence = 0.5
+		infantry_power = 0.5
+		defensiveness = 0.5
+		cavalry_power = 0.5
 		leader_land_shock = 1
-		artillery_power = 0.1
+		artillery_power = 0.5
 	}
 	caravan_guard = {
 		land_attrition = -0.1
