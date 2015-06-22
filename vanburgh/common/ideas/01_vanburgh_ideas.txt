@@ -128,9 +128,53 @@ HOC_IDEAS {
 	
 }
 
+ISI_IDEAS = {
+	start = {
+		light_ship_cost = -0.5
+		naval_forcelimit_modifier = 0.5
+	}
+	
+	bonus = {
+		sea_repair = yes
+		navy_tradition = 1
+		navy_tradition_decay = -0.01
+	}
+	trigger = {
+		tag = ISI
+	}
+	free = yes
+	
+	shrewd_commerce_practise = {
+ 		global_trade_power = 0.2
+  	}
+	call_of_our_forefathers = {
+		range = 0.33
+		may_explore = yes
+	}
+	pioneer_spirit = {
+		colonists = 1
+	}
+	ships_penny = {
+		global_ship_cost = -0.25
+	}
+	islandi_trade_policy = {
+		trade_efficiency = 0.15
+		trade_steering = 0.25
+		global_trade_income_modifier = 0.1
+	}
+	islandi_seafarers = {
+		light_ship_power = 0.20
+		heavy_ship_power = 0.20
+	}
+	new_islandi_sagas = {
+		prestige = 1
+		discipline = 0.025
+	}
+}
+
 GIO_IDEAS = {
 	start = {
-		mil_tech_cost_modifier  = -0.1
+		technology_cost  = -0.05
 		diplomatic_upkeep = 2
 	}
 	
@@ -256,7 +300,7 @@ MRH_ideas {
 	start = {
 		siege_ability = 0.20
 		core_creation = -0.25
-		global_missionary_strength = 0.05
+		global_missionary_strength = 0.1
 	}
 	
 	bonus = {

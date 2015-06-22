@@ -1,19 +1,26 @@
 #371 - Akureyri
 
-owner = NOR
-controller = NOR
-add_core = NOR 
+owner = ISI
+controller = ISI
+add_core = ISI 
 culture = norwegian
 religion = catholic
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 5 
+base_production = 4
 trade_goods = fish
-base_manpower = 1
+base_manpower = 3
 capital = "Akureyri"
-add_local_autonomy = 25
 is_city = yes	
 discovered_by = western
 
-1536.1.1 = { religion = protestant owner = DAN controller = DAN add_core = DAN }
+1000.1.1 = {
+	add_permanent_province_modifier = {
+		name = center_of_trade_modifier
+		duration = -1
+	}
+}
+
+
+1536.1.1 = { religion = protestant }
 1752.1.1 = { trade_goods = wool } # Wool becomes more important.
