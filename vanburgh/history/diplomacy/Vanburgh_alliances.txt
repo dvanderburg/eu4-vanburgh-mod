@@ -5,17 +5,35 @@ alliance = {
 	start_date = 1373.1.1
 	end_date = 1820.1.1
 }
+royal_marriage = {
+	first = MOZ
+	second = CLS
+	start_date = 1439.1.1
+	end_date = 1455.7.19
+}
 alliance = {
 	first = MOZ
 	second = HOC
 	start_date = 1373.1.1
 	end_date = 1820.1.1
 }
+royal_marriage = {
+	first = MOZ
+	second = HOC
+	start_date = 1439.1.1
+	end_date = 1455.7.19
+}
 alliance = {
 	first = MOZ
 	second = MGL
 	start_date = 1373.1.1
 	end_date = 1820.1.1
+}
+royal_marriage = {
+	first = MOZ
+	second = MGL
+	start_date = 1439.1.1
+	end_date = 1455.7.19
 }
 
 # Gina's Alliances
@@ -25,11 +43,23 @@ alliance = {
 	start_date = 1373.1.1
 	end_date = 1820.1.1
 }
+royal_marriage = {
+	first = CLS
+	second = HOC
+	start_date = 1439.1.1
+	end_date = 1455.7.19
+}
 alliance = {
 	first = CLS
 	second = MGL
 	start_date = 1373.1.1
 	end_date = 1820.1.1
+}
+royal_marriage = {
+	first = CLS
+	second = MGL
+	start_date = 1439.1.1
+	end_date = 1455.7.19
 }
 
 # Alfie's Alliances
@@ -38,4 +68,10 @@ alliance = {
 	second = MGL
 	start_date = 1373.1.1
 	end_date = 1820.1.1
+}
+royal_marriage = {
+	first = HOC
+	second = MGL
+	start_date = 1439.1.1
+	end_date = 1455.7.19
 }
