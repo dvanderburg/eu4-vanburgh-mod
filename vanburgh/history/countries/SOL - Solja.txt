@@ -1,6 +1,6 @@
 government = despotic_monarchy
 mercantilism = 0.25
-technology_group = western
+technology_group = eastern
 primary_culture = english
 religion = catholic
 add_accepted_culture = bantu
