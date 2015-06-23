@@ -6,15 +6,16 @@ color = { 215  134  233 }
 
 historical_score = 75
 
+# calassy is a diplomatic and production nation
 historical_idea_groups = {
 	innovativeness_ideas
-	trade_ideas
-	defensive_ideas
-	administrative_ideas
 	diplomatic_ideas
-	offensive_ideas
+	aristocracy_ideas
+	administrative_ideas
+	influence_ideas
+	defensive_ideas
 	economic_ideas
-	quality_ideas	
+	plutocracy_ideas
 }
 
 historical_units = {

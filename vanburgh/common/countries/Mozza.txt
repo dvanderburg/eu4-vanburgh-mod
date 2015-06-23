@@ -6,12 +6,13 @@ color = { 20  207  18 }
 
 historical_score = 75
 
+# Mozza is a military (manpower) and taxiation nation
 historical_idea_groups = {
 	innovativeness_ideas
+	quantity_ideas
 	trade_ideas
 	defensive_ideas
 	administrative_ideas
-	diplomatic_ideas
 	offensive_ideas
 	economic_ideas
 	quality_ideas	

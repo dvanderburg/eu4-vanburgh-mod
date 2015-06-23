@@ -21,6 +21,5 @@ discovered_by = western
 	}
 }
 
-
 1536.1.1 = { religion = protestant }
 1752.1.1 = { trade_goods = wool } # Wool becomes more important.

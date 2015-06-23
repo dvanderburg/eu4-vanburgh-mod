@@ -16,8 +16,8 @@ CLS_IDEAS = {
 	free = yes		#will be added at load.
 	
 	finer_things = {
-		production_efficiency = 0.1
-		global_tax_modifier = 0.10
+		production_efficiency = 0.15
+		global_tax_modifier = 0.1
  	}
  	classy_rulers  = { 
 		prestige_decay = -0.05

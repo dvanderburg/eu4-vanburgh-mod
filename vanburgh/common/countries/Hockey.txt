@@ -6,12 +6,13 @@ color = { 80  178  233 }
 
 historical_score = 75
 
+# hockey is a trade and naval nation
 historical_idea_groups = {
 	innovativeness_ideas
 	trade_ideas
 	defensive_ideas
-	administrative_ideas
-	diplomatic_ideas
+	maritime_ideas
+	expansion_ideas
 	offensive_ideas
 	economic_ideas
 	quality_ideas	

@@ -6,12 +6,13 @@ color = { 197  167  20 }
 
 historical_score = 75
 
+# magila is a taxiation and military (calvary) nation
 historical_idea_groups = {
 	innovativeness_ideas
-	trade_ideas
+	aristocracy_ideas
 	defensive_ideas
-	administrative_ideas
-	diplomatic_ideas
+	trade_ideas
+	innovativeness_ideas
 	offensive_ideas
 	economic_ideas
 	quality_ideas	
