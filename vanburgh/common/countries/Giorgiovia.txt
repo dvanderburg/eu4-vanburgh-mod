@@ -7,7 +7,7 @@ color = { 225  225  225 }
 historical_idea_groups = {
 	religious_ideas
 	defensive_ideas
-	spy_ideas
+	maritime_ideas
 	trade_ideas
 	offensive_ideas
 	economic_ideas

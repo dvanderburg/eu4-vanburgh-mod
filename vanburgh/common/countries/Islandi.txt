@@ -9,14 +9,14 @@ historical_score = 25
 preferred_religion = protestant
 
 historical_idea_groups = {
-	aristocracy_ideas
+	naval_ideas
 	trade_ideas
-	defensive_ideas
-	offensive_ideas
-	economic_ideas
+	expansion_ideas
+	quantity_ideas
 	diplomatic_ideas
-	innovativeness_ideas
+	defensive_ideas
 	maritime_ideas
+	quality_ideas
 }
 
 historical_units = {
