@@ -1,8 +1,8 @@
 # - Regensburg
 
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = RIS
+controller = RIS
+add_core = RIS
 culture = bavarian
 religion = catholic
 base_tax = 6

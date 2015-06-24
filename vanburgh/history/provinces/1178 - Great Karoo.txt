@@ -2,7 +2,7 @@
 
 owner = SOL
 controller = SOL
-culture = english
+culture = bantu
 religion = catholic
 add_core = SOL
 capital = "Great Karoo"

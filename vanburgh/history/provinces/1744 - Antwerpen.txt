@@ -1,8 +1,8 @@
 # 1744 Antwerp - Principal cities: Antwerp
 
-owner = FLA
-controller = FLA
-add_core = FLA
+owner = VAN
+controller = VAN
+add_core = VAN
 is_city = yes
 capital = "Antwerp"
 culture = flemish

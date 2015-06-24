@@ -2,7 +2,7 @@
 
 owner = SOL
 controller = SOL
-culture = english
+culture = dutch
 religion = catholic
 add_core = SOL
 capital = "Lesser Namaqualand"

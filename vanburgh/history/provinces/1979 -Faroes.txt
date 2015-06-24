@@ -1,17 +1,17 @@
 #1979 - Färöarna
 
-owner = NOR
-controller = NOR 
+owner = ISI
+controller = ISI 
 culture = norwegian
 religion = catholic
 hre = no
-base_tax = 1 
+base_tax = 2 
 base_production = 1
 trade_goods = fish
-base_manpower = 0.5
+base_manpower = 1
 capital = "Torshavn"
 is_city = yes
-add_core = NOR
+add_core = ISI
 discovered_by = western
 
 1536.1.1 = {
