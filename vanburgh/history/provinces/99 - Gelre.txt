@@ -2,6 +2,7 @@
 
 owner = VAN
 controller = VAN 
+add_core = VAN
 capital = "Arnhem"
 is_city = yes
 culture = dutch
