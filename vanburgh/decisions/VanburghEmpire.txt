@@ -1,0 +1,102 @@
+country_decisions = {
+
+	vanburgh_empire = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = VBE }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			OR = {
+				primary_culture = dutch
+				primary_culture = flemish
+				tag = BUR
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+		}
+		allow = {
+			adm_tech = 16
+			is_subject = no
+			is_at_war = no
+			dynasty = "Vanderburg"
+			owns_core_province = 95 # Breda
+			owns_core_province = 96 # Zeeland
+			owns_core_province = 97 # Holland
+			owns_core_province = 98 # Utrecht
+			owns_core_province = 99 # Gelre
+			owns_core_province = 100 # Friesland
+			owns_core_province = 186 # Champange
+			owns_core_province = 172 # Nantes
+			owns_core_province = 85 # Koln
+			owns_core_province = 1931 # East Frisia
+			owns_core_province = 174 # Gascogne
+			owns_core_province = 203 # Lyonnais
+			owns_core_province = 201 # Provence
+			owns_core_province = 1876 # Frankfurt
+			owns_core_province = 1874 # Bremen
+		}
+	 	effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+	  		if = {
+	  			limit = {
+	  				tag = BUR
+	  			}
+	  			change_primary_culture = dutch
+	  			set_capital = 97
+			}
+			change_tag = VBE
+			the_low_countries = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = VBE
+			}
+			french_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = VBE
+			}
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 3
+					}
+				}
+				set_government_rank = 3
+			}
+			add_prestige = 100
+			swap_free_idea_group = yes		#keep progress
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				tag = BUR
+			}
+		}
+		ai_importance = 400
+	}
+	
+}

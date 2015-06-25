@@ -472,3 +472,47 @@ VAN_ideas = {
 		merchants = 1
 	}
 }
+
+VBE_ideas = {
+	start = {
+		naval_forcelimit_modifier = 1.00
+		technology_cost = -0.10
+	}
+	
+	bonus = {
+		accepted_culture_threshold = -0.25
+	}
+
+	trigger = {
+		tag = VAN
+	}
+	free = yes		#will be added at load.
+	
+	prudant_dutch = {
+		inflation_reduction = 0.10
+		global_tax_modifier = 0.20
+	}
+	van_empire_army = {
+		land_morale = 0.20
+		infantry_power = 0.20
+	}
+	van_empire_reputation = {
+		diplomatic_reputation = 3
+		diplomatic_upkeep = 2
+	}
+	develop_the_empire = {
+		development_cost = -0.1
+	}
+	production_of_van_empire = {
+		production_efficiency = 0.2
+	}
+	van_empire_leader = {
+		discipline = 0.10
+		leader_land_fire = 3
+	}
+	van_trading_empire = {
+		merchants = 3
+		leader_naval_manuever = 2
+		light_ship_power = 0.2
+	}
+}
