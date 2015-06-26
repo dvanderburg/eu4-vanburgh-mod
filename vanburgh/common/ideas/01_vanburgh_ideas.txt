@@ -325,12 +325,12 @@ MRH_ideas {
 		leader_land_shock = 1
 	}
 	third_wave = {		
-		spy_offence = 0.5
-		infantry_power = 0.5
-		defensiveness = 0.5
-		cavalry_power = 0.5
+		spy_offence = 0.05
+		infantry_power = 0.05
+		defensiveness = 0.05
+		cavalry_power = 0.05
 		leader_land_shock = 1
-		artillery_power = 0.5
+		artillery_power = 0.05
 	}
 	caravan_guard = {
 		land_attrition = -0.1
