@@ -511,7 +511,7 @@ VBE_ideas = {
 		leader_land_fire = 3
 	}
 	van_trading_empire = {
-		merchants = 3
+		merchants = 2
 		leader_naval_manuever = 2
 		light_ship_power = 0.2
 	}

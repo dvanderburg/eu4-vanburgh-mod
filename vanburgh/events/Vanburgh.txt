@@ -1,0 +1,44 @@
+namespace = van_mod_events
+
+# Restore Vanburgh Dynasty
+country_event = {
+	id = van_mod_events.1
+	title = "van_mod_events.1.t"
+	desc = "van_mod_events.1.d"
+	picture = COURT_eventPicture
+
+	trigger = {
+		tag = VAN
+		NOT = { dynasty = "Vanderburg" }
+		is_subject = no
+		government = monarchy
+		has_regency = no
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		months = 750
+		modifier = {
+			factor = 2
+			has_heir = no
+		}
+	}
+
+	# Restore Vanburgh Dynasty
+	option = {
+		name = "van_mod_events.1.a"
+		add_legitimacy = -10
+		define_heir = {
+			claim = 20
+			age = 21
+			dynasty = "Vanderburg"
+			adm = 1
+		}
+	}
+
+	# Vanburgh's time is over
+	option = {
+		name = "van_mod_events.1.b"
+		add_legitimacy = 10
+	}
+}
