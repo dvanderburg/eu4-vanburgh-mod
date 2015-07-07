@@ -19,7 +19,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 750
 		modifier = {
-			factor = 2
+			factor = 2.0
 			has_heir = no
 		}
 	}
@@ -32,7 +32,9 @@ country_event = {
 			claim = 20
 			age = 21
 			dynasty = "Vanderburg"
-			adm = 1
+			adm = 3
+			dip = 3
+			mil = 3
 		}
 	}
 
@@ -41,4 +43,56 @@ country_event = {
 		name = "van_mod_events.1.b"
 		add_legitimacy = 10
 	}
+}
+
+# Reconciling differences with Riesling
+country_event = {
+	id = van_mod_events.2
+	title = "van_mod_events.2.t"
+	desc = "van_mod_events.2.d"
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		tag = VAN
+		has_opinion = { who = RIS value = 25 }
+		NOT = {
+			reverse_has_opinion = { who = RIS value = -25 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 5.0
+			NOT = {
+				reverse_has_opinion = { who = RIS value = -199 }
+			}
+		}
+		modifier = {
+			factor = 3.0
+			NOT = {
+				reverse_has_opinion = { who = RIS value = -125 }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				reverse_has_opinion = { who = RIS value = -99 }
+			}
+		}
+	}
+	
+	# Reconcile
+	option = {
+		name = "van_mod_events.2.a"
+		add_opinion = {
+			who = RIS
+			modifier = vanburgh_riesling_reconcile
+		}
+		reverse_add_opinion = {
+			who = RIS
+			modifier = vanburgh_riesling_reconcile
+		}
+	}
+	
 }

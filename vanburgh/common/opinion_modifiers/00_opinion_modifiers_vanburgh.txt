@@ -1,0 +1,8 @@
+#########################################################################
+# OPINION MODIFIERS FOR VANBURGH MOD NATIONS
+##########################################################################
+
+vanburgh_riesling_reconcile = {
+	opinion = 200
+	yearly_decay = 8
+}
