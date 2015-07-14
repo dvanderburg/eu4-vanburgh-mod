@@ -3,6 +3,14 @@
 ##########################################################################
 
 vanburgh_riesling_reconcile = {
-	opinion = 200
-	yearly_decay = 8
+	opinion = 150
+	yearly_decay = 5
+}
+vanburgh_shun_germans = {
+	opinion = -50
+	yearly_decay = 5
+}
+vanburgh_german_aggression = {
+	opinion = -200
+	yearly_decay = 10
 }

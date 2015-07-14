@@ -27,6 +27,7 @@ country_event = {
 	# Restore Vanburgh Dynasty
 	option = {
 		name = "van_mod_events.1.a"
+		ai_chance = { factor = 99 }
 		add_legitimacy = -10
 		define_heir = {
 			claim = 20
@@ -41,11 +42,12 @@ country_event = {
 	# Vanburgh's time is over
 	option = {
 		name = "van_mod_events.1.b"
+		ai_chance = { factor = 1 }
 		add_legitimacy = 10
 	}
 }
 
-# Reconciling differences with Riesling
+# Vanburgh reconciling differences with Riesling
 country_event = {
 	id = van_mod_events.2
 	title = "van_mod_events.2.t"
@@ -95,4 +97,251 @@ country_event = {
 		}
 	}
 	
+}
+
+# Riesling reconciling differences with Vanburgh
+country_event = {
+	id = van_mod_events.3
+	title = "van_mod_events.3.t"
+	desc = "van_mod_events.3.d"
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		tag = RIS
+		has_opinion = { who = VAN value = 25 }
+		NOT = {
+			reverse_has_opinion = { who = VAN value = -25 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 5.0
+			NOT = {
+				reverse_has_opinion = { who = VAN value = -199 }
+			}
+		}
+		modifier = {
+			factor = 3.0
+			NOT = {
+				reverse_has_opinion = { who = VAN value = -125 }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				reverse_has_opinion = { who = VAN value = -99 }
+			}
+		}
+	}
+	
+	# Reconcile
+	option = {
+		name = "van_mod_events.3.a"
+		add_opinion = {
+			who = VAN
+			modifier = vanburgh_riesling_reconcile
+		}
+		reverse_add_opinion = {
+			who = VAN
+			modifier = vanburgh_riesling_reconcile
+		}
+	}
+	
+}
+
+# Vanburgh personal union over Riesling
+country_event = {
+	id = van_mod_events.4
+	title = "van_mod_events.4.t"
+	desc = "van_mod_events.4.d"
+	picture = DIPLOMACY_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		dynasty = "Vanderburg"
+		OR = { tag = VAN tag = VBE }
+		is_year = 1450
+		NOT = { is_year = 1700 }
+		is_subject = no
+		RIS = {
+			exists = yes
+			ai = yes
+			was_player = no
+			is_subject = no
+			is_neighbor_of = ROOT
+		}
+		NOT = { war_with = RIS }
+		OR = {
+			AND = {
+				is_female = yes
+				RIS = { is_female = no }
+			}
+			AND = {
+				is_female = no
+				RIS = { is_female = yes }
+			}
+			RIS = {
+				has_regency = yes
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 5
+			RIS = { dynasty = "Geyer" }
+		}
+	}
+	
+	# Let us bind their dynasty to ours
+	option = {
+		name = "van_mod_events.4.a"
+		ai_chance = { factor = 90 }
+		create_union = RIS
+		add_opinion = {
+			who = RIS
+			modifier = vanburgh_riesling_reconcile
+		}
+		reverse_add_opinion = {
+			who = RIS
+			modifier = vanburgh_riesling_reconcile
+		}
+		every_known_country = {
+			limit = {
+				marriage_with = RIS
+			}
+			add_opinion = {
+				who = ROOT
+				value = -50
+			}
+		}
+	}
+	
+	# Our dynasty and destiny lay apart
+	option = {
+		name = "van_mod_events.4.b"
+		ai_chance = { factor = 10 }
+		add_stability = 1
+	}
+}
+
+# Vanburgh incorporation of Germans
+country_event = {
+	id = van_mod_events.5
+	title = "van_mod_events.5.t"
+	desc = "van_mod_events.5.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = true
+	
+	trigger = {
+		tag = VBE
+		overlord = {
+			senior_union_with = RIS
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	# All Germans are welcome in the Empire
+	option = {
+		name = "van_mod_events.5.a"
+		add_stability = 1
+		add_opinion = {
+			who = RIS
+			modifier = vanburgh_riesling_reconcile
+		}
+		reverse_add_opinion = {
+			who = RIS
+			modifier = vanburgh_riesling_reconcile
+		}
+	}
+	
+	# We are an Empire of Dutch and French
+	option = {
+		name = "van_mod_events.5.b"
+		add_prestige = 50
+		reverse_add_opinion = {
+			who = RIS
+			modifier = vanburgh_shun_germans
+		}
+	}
+	
+	# The Germans must be conquered
+	option = {
+		name = "van_mod_events.5.c"
+		reverse_add_opinion = {
+			who = RIS
+			modifier = vanburgh_german_aggression
+		}
+		every_province = {
+			limit = {
+				region = german_region
+				culture_group = germanic
+				NOT = {
+					owned_by = RIS 
+					owned_by = VBE
+					region = lotharingia
+					region = swabia
+					region = bavarian_region
+					region = austrian_region
+					region = western_balkans
+					region = croatian_region
+					region = bohemian_region
+					province_id = 76 # Salzburg
+					province_id = 72 # Breisgau
+					province_id = 74 # Baden
+					province_id = 77 # Pfalz / Heidelberg
+					province_id = 78 # Mainz
+					province_id = 1876 # Frankfurt
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+	
+}
+
+# Expanding the Empire
+country_event = {
+	id = van_mod_events.6
+	title = "van_mod_events.6.t"
+	desc = "van_mod_events.6.d"
+	picture = COURT_eventPicture
+	
+	trigger = {
+		tag = VBE
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	# Glory to the Empire
+	option = {
+		name = "van_mod_events.6.a"
+		random_neighbor_country = {
+			limit = {
+				knows_country = ROOT
+				capital_scope = { continent = europe }
+			}
+			reverse_add_casus_belli = {
+				target = ROOT
+				type = cb_border_war
+				months = 24
+			}
+		}
+	}
+	# It is not the time to expand
+	option = {
+		name = van_mod_events.6.b
+		add_prestige = -5
+	}
 }
