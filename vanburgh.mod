@@ -1,3 +1,3 @@
 name = "Vanburgh"
 path = "mod/vanburgh"
-supported_version = "1.12"
+supported_version = "1.15"
